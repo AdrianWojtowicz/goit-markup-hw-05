@@ -1,0 +1,542 @@
+body {
+    font-family: Roboto;
+}
+
+header {
+    height: 80px;
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo-header {
+    width: 145px;
+    height: 31px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.web {
+    color: #2196F3;
+}
+
+nav {
+    min-width: 254px;
+    margin-left: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agencja, .agencja-aktywny {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.agencja:hover, 
+.agencja:focus {
+    color: #2196F3;
+}
+
+.agencja-aktywny {
+    color: #2196f3;
+}
+
+.portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.portfolio-aktywny {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.portfolio:hover,
+.portfolio:focus {
+    color: #2196F3;
+}
+
+.kontakt {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.kontakt:hover,
+.kontakt:focus,
+.tel-menu:hover,
+.tel-menu:focus,
+.email-menu:hover,
+.email-menu:focus,
+.mail-footer:hover,
+.mail-footer:focus,
+.tel-footer:hover,
+.tel-footer:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.email-menu, .tel-menu {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.email-menu {
+    width: 161px;
+    margin-left: 345px;
+}
+
+.tel-menu {
+    width: 130px;
+    margin-left: 30px;
+}
+
+.icon-mail, .icon-smartphone {
+    fill: currentColor;
+}
+
+.efektywne {
+    height: 600px;
+    background-color: #2F303A;
+    background-image: linear-gradient(
+                    rgba(47, 48, 58, 0.4), 
+                    rgba(47, 48, 58, 0.4)),
+                    url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.efektywne2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.efektywne-tekst {
+    width: 696px;
+    margin-bottom: 0px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-zamow-usluge {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    background: #2196F3;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    padding: 0px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.atuty {
+    height: 345px;
+    padding-top: 94px;
+}
+.atuty-box {
+    width: 1170px;
+    height: 251px;
+}
+
+.tabela-atuty {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.atuty1, .atuty2, .atuty3, .atuty4 {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t1, .t2, .t3, .t4 {
+    width: 270px;
+}
+
+.t1-naglowek, .t2-naglowek, .t3-naglowek, .t4-naglowek {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin:0px;
+    margin-top: 30px;
+}
+
+.t1-tresc, .t2-tresc, .t3-tresc, .t4-tresc {
+    width: 270px;
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+} 
+
+.zajecia {
+    height: 574px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.zajecia2 {
+    width: 1170px;
+    height: 386px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.zajecia-naglowek, .nasz-zespół, .nasi-klienci  {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0px;
+}
+
+.box2, .box3 {
+    margin-left: 30px;
+}
+
+.zespol {
+    height: 708px;
+    background: #F5F4FA;
+}
+.zespol2 {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-content: center;
+}
+
+.tabela-zespol {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-right: 0px;
+    padding: 0;
+    width: 1170px;
+    height: 368px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zespol-1, .zespol-2, .zespol-3, .zespol-4 {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 428px;
+}
+
+.zespol-1-imie, .zespol-2-imie, .zespol-3-imie, .zespol-4-imie {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.zespol-1-stan, .zespol-2-stan, .zespol-3-stan, .zespol-4-stan {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.social {
+    width: 206px;
+    height: 44px;
+    margin: 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon-background, .social-icon-background-footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-background:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.social-icon-background:hover > .instagram, .social-icon-background:hover > .twitter, .social-icon-background:hover > .facebook, .social-icon-background:hover > .linkedin {
+    fill: #fff;
+}
+
+.instagram, .twitter, .facebook, .linkedin {
+    fill: #afb1b8;
+}
+
+.klienci {
+    height: 372px;
+    padding: 94px;
+}
+
+.klienci2 {
+    width: 1170px;
+    height: 184px;
+}
+
+.lista-klientów {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.klient1, .klient2, .klient3, .klient4, .klient5, .klient6 {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-klient1, .icon-klient2, .icon-klient3, .icon-klient4, .icon-klient5, .icon-klient6 {
+    fill: #afb1b8;
+}
+
+.klient1:hover, .klient2:hover, .klient3:hover, .klient4:hover, .klient5:hover, .klient6:hover {
+    border-color: #2196F3;
+    cursor: pointer;
+}
+
+.klient1:hover > .icon-klient1, .klient2:hover > .icon-klient2, .klient3:hover > .icon-klient3, .klient4:hover > .icon-klient4, .klient5:hover > .icon-klient5, .klient6:hover > .icon-klient6 {
+    fill: #2196F3;
+}
+
+.footer {
+    height: 252px;
+    background: #2F303A;
+}
+
+.footer2 {
+    width: 1200px;
+    height: 252px;
+    padding-left: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.studio-footer {
+    color: #FFFFFF;
+}
+
+.adress {
+    width: 255px;
+    height: 81px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+    flex-wrap: nowrap;
+}
+
+.adres-footer {
+    color: #FFFFFF;
+}
+
+.mail-footer, .tel-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.social-footer {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.social-footer-icons {
+    width: 206px;
+    height: 44px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon-background-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-background-footer:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.instagram-footer, .twitter-footer, .facebook-footer, .linkedin-footer {
+    fill: #fff;
+}
+
+.portfolio-strona {
+    height: 1548px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-strona2 {
+    width: 1170px;
+    height: 1360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.filtry {
+    width: 572px;
+    height: 54px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding: 6px 22px;
+}
+
+button:hover {
+    background: #2196F3;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.projekty {
+    width: 1170px;
+    height: 1272px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.kontener {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
+}
+
+.kontener:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projekt-tytul {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.projekt-podpis {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 4px;
+    margin-left: 24px;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
