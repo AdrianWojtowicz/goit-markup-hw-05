@@ -675,10 +675,6 @@ button:hover, button:focus {
     padding: 0;
 }
 
-.close-button:active {
-    transition: opacity 0.5s ease-in;
-}
-
 .close-button:hover {
     background-color: #fff;
     box-shadow: none; 
