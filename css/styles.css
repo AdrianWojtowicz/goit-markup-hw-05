@@ -72,6 +72,28 @@ nav {
     color: #2196F3;
 }
 
+.agencja-aktywny, .portfolio-aktywny {
+    position: relative;
+}
+.agencja-aktywny::after, .portfolio-aktywny::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
+    margin-top: 44px;
+    left: 0;
+}
+
+.agencja-aktywny::after {
+    width: 53px;
+}
+
+.portfolio-aktywny::after {
+    width: 58px;
+}
+
+
 .kontakt {
     font-weight: 500;
     font-size: 14px;
@@ -615,4 +637,60 @@ button:hover, button:focus {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-content: center;
+    transition: opacity 0.5s ease-in;
+}
+
+.modal {
+    width: 528px;
+    height: 581px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 8px;
+    top: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.close-button:active {
+    transition: opacity 0.5s ease-in;
+}
+
+.close-button:hover {
+    background-color: #fff;
+    box-shadow: none; 
+}
+
+.close-button-icon {
+    fill: #000000;
+    margin: 5px;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
