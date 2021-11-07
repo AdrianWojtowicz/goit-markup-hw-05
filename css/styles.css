@@ -648,7 +648,7 @@ button:hover, button:focus {
     background: rgba(0, 0, 0, 0.2);
     display: flex;
     align-content: center;
-    transition: opacity 0.5s ease-in;
+    transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .modal {
@@ -689,4 +689,5 @@ button:hover, button:focus {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1), visibility 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
